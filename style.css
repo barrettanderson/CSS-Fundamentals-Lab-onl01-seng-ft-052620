@@ -10,11 +10,14 @@ img {
   margin: 0 auto;
 }
 
-nav {text-align:center;}
+nav, figcaption {
+  text-align:center;
+}
 
 nav a {
-  padding:10;
+  padding:0 10px;
   background: #ccc;
+  margin: 0 auto;
 }
 
 figcaption {text-align: center;}
